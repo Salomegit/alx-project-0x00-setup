@@ -12,7 +12,7 @@ const landing:React.FC = () => {
 
        <div className="flex gap-4">
         <Button title="Small Rounded-sm" styles="text-sm rounded-sm px-2 py-1" />
-        <Button title="Small Rounded-md" styles="text-sm rounded-md px-2 py-1" />
+        <Button title="Small rounded-lg" styles="text-sm rounded-md px-2 py-1" />
         <Button
           title="Small Rounded-full"
           styles="text-sm rounded-full px-2 py-1"

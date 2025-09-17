@@ -2,8 +2,7 @@ import React from "react";
 
 interface ButtonProps {
   title: string;
-  styles?: string; // tailwind classes passed as string
-}
+  styles: string; }
 
 const Button: React.FC<ButtonProps> = ({ title, styles }) => {
   return (
